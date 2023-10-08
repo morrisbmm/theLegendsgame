@@ -27,7 +27,7 @@ def bet():
 
      if guess == secretNumber:
         num_guesses = str(guessesTaken)
-        if num_guesses == 1:
+        if num_guesses == "1":
             print("CONGRATULATIONS you won, "+ str( 4*stake)+ "in your first guess")              
         else:
             print("CONGRATULATIONS you won, "+ str(2*stake) + "in 2 guesses")
